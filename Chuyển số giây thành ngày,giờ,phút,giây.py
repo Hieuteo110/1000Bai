@@ -1,0 +1,9 @@
+n=int(input("Nhập số giây: "))
+ss=n
+day=n//86400
+n=n%86400
+hour=n//3600
+n=n%3600
+minute=n//60
+n=n%60
+print(f"{ss} giây = {day} ngày {hour} giờ {minute} phút {n} giây")
